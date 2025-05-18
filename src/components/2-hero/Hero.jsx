@@ -36,10 +36,10 @@ const Hero = () => {
                 animate={{opacity: 1}}
                 transition={{duration: 2}}
                 className='title'>
-                    software designer,founder, and amateur astronaut.
+                    Software Designer and Website Creator
                     </motion.h1>
 
-                <p className='sub-title'>lm Humam Kasir, a software designer and entreneur based in New York City. Im the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.</p>
+                <p className='sub-title'>I’m Humam Kasir, a web designer and creative developer based in Turkey. I’m the founder and lead designer at my own digital studio, where we create modern, user-centered websites that help individuals and businesses grow their online presence with confidence and clarity.</p>
 
                 <div className='all-icons flex'>
                     <div className="icon icon-twitter"></div>
