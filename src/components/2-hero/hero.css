@@ -70,6 +70,30 @@ section.hero .all-icons .icon:hover {
     cursor: pointer;
     color: var(--icon-hover);
 }
+
+section.hero .all-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--subtitle);
+    transition: 0.3s;
+}
+
+section.hero .all-icons a:hover {
+    color: var(--icon-hover);
+    cursor: pointer;
+}
+
+section.hero .all-icons a i,
+section.hero .all-icons a .icon {
+    font-size: 1.3rem;
+}
+
+section.hero .all-icons a:hover i,
+section.hero .all-icons a:hover .icon {
+    font-size: 1.4rem;
+}
 section.hero .animation{
     width: 100%;
     translate: 100px 55px;

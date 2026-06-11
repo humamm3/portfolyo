@@ -42,10 +42,10 @@ const Hero = () => {
                 <p className='sub-title'>I’m Humam Kasir, a web designer and creative developer based in Turkey. I’m the founder and lead designer at my own digital studio, where we create modern, user-centered websites that help individuals and businesses grow their online presence with confidence and clarity.</p>
 
                 <div className='all-icons flex'>
-                    <div className="icon icon-twitter"></div>
-                    <div className="icon icon-instagram"></div>
-                    <div className="icon icon-github"></div>
-                    <div className="icon icon-linkedin2"></div>
+                    <a href="https://wa.me/05365083588" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/__humam__k.27?igsh=ZHFldWdhc3E1bGU0"><div className="icon icon-instagram"></div></a>
+                    <a href="https://github.com/humamm3?tab=repositories"><div className="icon icon-github"></div></a>
+                    <a href="https://www.linkedin.com/in/humam-kasir-5a4137344?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer"><div className="icon icon-linkedin2"></div></a> 
                 </div>
             </div>
 

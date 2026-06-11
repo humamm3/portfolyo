@@ -60,10 +60,14 @@ const Main = () => {
                               <div className="icon-link"></div>
                               <div className="icon-github"></div>
                           </div>
-                          <a className='link flex' href="">
+                          <a
+                             className='link flex'
+                             href={item.link}
+                             target="_blank"
+                             rel="noopener noreferrer">
                               more
-                              <span style={{alignSelf:'end'}} className='icon-arrow-right'></span>
-                          </a>
+                              <span className='icon-arrow-right'></span>
+                            </a>
                       </div>
                   </div>
                 </motion.article>
