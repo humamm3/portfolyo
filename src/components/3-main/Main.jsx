@@ -52,7 +52,7 @@ const Main = () => {
                   <div style={{width: "266px"}} className='box'>
 
                      <h1 className='title'>{item.projectTitle} </h1>
-                      <p className='sub-title'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit cupiditate molestias commodi ratione fugit debitis, laboriosam quidem a omnis excepturi totam aut asperiores itaque eum consequuntur.</p>
+                      <p className='sub-title'>{item.p} </p>
 
                       <div className='flex icons'>
 
