@@ -9,7 +9,7 @@ const Contact = () => {
 
 
     return (
-        <section className='contact-uc'>
+        <section id="contact" className='contact-uc'>
             <h1 className='title'>
                 <samp className='icon-envelope'></samp>
                 Contact Uc

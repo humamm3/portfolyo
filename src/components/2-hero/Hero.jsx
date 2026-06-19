@@ -36,10 +36,10 @@ const Hero = () => {
                 animate={{opacity: 1}}
                 transition={{duration: 2}}
                 className='title'>
-                    Software Designer and Website Creator
+                    Full Stack Web Developer & Website Creator
                     </motion.h1>
 
-                <p className='sub-title'>I’m Humam Kasir, a web designer and creative developer based in Turkey. I’m the founder and lead designer at my own digital studio, where we create modern, user-centered websites that help individuals and businesses grow their online presence with confidence and clarity.</p>
+                <p className='sub-title'>I am Humam Kasir, a Full Stack Web Developer based in Turkey I specialize in building responsive websites and web applications from front-end interfaces to back-end systems My goal is to deliver clean scalable and high-performance solutions that provide real value to businesses and users</p>
 
                 <div className='all-icons flex'>
                     <a href="https://wa.me/05365083588" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>

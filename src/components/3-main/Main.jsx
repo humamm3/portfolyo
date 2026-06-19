@@ -29,7 +29,7 @@ const Main = () => {
               <button onClick={() => {handleClick("css")}} className={currentActive === "css" ? 'active' : null}>HTML & CSS </button>
               <button onClick={() => {handleClick("js")}} className={currentActive === "js" ? 'active' : null}>JavaScript </button>
               <button onClick={() => {handleClick("react")}} className={currentActive === "react" ? 'active' : null}>React & MUL</button>
-              <button onClick={() => {handleClick("node")}} className={currentActive === "node" ? 'active' : null}>Node & Express</button>
+              <button onClick={() => {handleClick("php")}} className={currentActive === "php" ? 'active' : null}>PHP & Laravel</button>
 
             </section>
 
@@ -58,7 +58,7 @@ const Main = () => {
 
                           <div style={{gap: "11px"}} className='flex'>
                               <div className="icon-link"></div>
-                              <div className="icon-github"></div>
+                              <div className="icon-github">{item.github}</div>
                           </div>
                           <a
                              className='link flex'

@@ -26,7 +26,7 @@ function App() {
       <Hero />
       <div className='divider'/>
       <Main />
-      <div className='divider'/>
+      <div className='divider' id="projects" />
       <Contact />
       <div className='divider'/>
       <Footer />
