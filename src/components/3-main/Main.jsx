@@ -23,7 +23,7 @@ const Main = () => {
 
     })
     return (
-        <main className='flex'>
+        <main id="projects" className='flex'>
             <section className='flex left-section'>
               <button onClick={() => {setcurrentActive("all"); setArr(myProjects);}} className={currentActive === "all" ? 'active' : null}>All projects</button>
               <button onClick={() => {handleClick("css")}} className={currentActive === "css" ? 'active' : null}>HTML & CSS </button>
